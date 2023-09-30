@@ -1,0 +1,55 @@
+body {
+  background-color: #1f1d1d;
+  color: #fff;
+  font-family: 'Times New Roman', serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1ea8bd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+th {
+  background-color: #444;
+  color: #1ea8bd;
+  font-weight: bold;
+}
+
+td {
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #555;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #666;
+}
+
+a {
+  color: #1ea8bd;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
